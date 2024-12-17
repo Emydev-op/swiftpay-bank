@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "coffie-app",
-    "slug": "coffie-app",
+    "name": "swift-pay",
+    "slug": "swift-pay",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#114280"
       }
     },
     "web": {
@@ -28,12 +28,18 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          // "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#114280"
         }
       ]
     ],
+
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#114280"
+    },
     "experiments": {
       "typedRoutes": true
     }
